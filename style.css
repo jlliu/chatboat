@@ -1,0 +1,89 @@
+@font-face{
+
+}
+
+body{
+	margin:0px;
+	/*font-family: 'Gothic A1', sans-serif;*/
+	font-family: 'Sorts Mill Goudy', serif;
+	position:relative;
+	height:100vh;
+	color:black;
+}
+#wrap{
+width:100%;
+height:100%;
+}
+.content-wrapper{
+	margin:auto;
+	width:90%;
+	max-width:900px;
+	padding:100px 20px;
+}
+img{
+	max-width:100%;
+	margin:auto;
+	width:600px;
+}
+
+h1{
+	font-family: 'Sorts Mill Goudy', serif;
+	font-size:48px;
+}
+h2{
+	font-size:32px;
+}
+h2,h3,h4{
+	font-family: 'Gothic A1', sans-serif;
+}
+
+#logo{
+	float:left;
+	letter-spacing:6px;
+}
+.fantasy{
+	float:left;
+	margin-left:20px;
+	padding:3px 20px;
+	border: solid 2px white;
+	position:relative;
+	bottom:6px;
+	letter-spacing:4px;
+}
+header{
+	width:100%;
+	height:56px;
+	background-color:black;
+	z-index:10;
+	position:fixed;
+	top:0px;
+	left:0px;
+	color:white;
+	padding:6px 30px;
+
+}
+	a{
+		text-decoration:none;
+		color:white; 
+		transition:.2s all;
+	}
+	a:hover{
+		color:grey;
+	}
+ul{
+	float:right;
+	padding-right:80px;
+}
+li{
+	list-style:none;
+	display:inline;
+	padding-left:20px;
+	font-size:12px;
+	letter-spacing:3px;
+
+}
+#unfixedFooter{
+	display:none;
+	visibility:hidden;
+}
+
